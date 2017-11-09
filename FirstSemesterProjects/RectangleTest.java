@@ -2,7 +2,7 @@ public class RectangleTest
 {
    public static void main(String[] args)
    {
-      Rectangle r = new Rectangle();
+      Rectangle r = new Rectangle(5,5);
       r.setWidth(10);
       r.setLength(10);
       System.out.println("Show me the width: " + r.getWidth());

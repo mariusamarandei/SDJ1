@@ -3,6 +3,12 @@ public class Rectangle
    private double width;
    private double length;
 
+   public Rectangle (double len, double w)
+   {
+      length = len;
+      width = w;
+   }
+   
    public void setWidth(double w)
    {
       width = w;
