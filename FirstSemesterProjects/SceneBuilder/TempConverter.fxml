@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+	prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Label id="lblTemp" layoutX="102.0" layoutY="154.0" prefHeight="30.0"
+			prefWidth="103.0" text="Temperature" />
+		<TextField fx:id="txtFieldTemp" layoutX="93.0" layoutY="185.0"
+			prefHeight="31.0" prefWidth="103.0" />
+		<Button id="btnToCelcius" fx:id="btnCelcius" layoutX="229.0"
+			layoutY="154.0" mnemonicParsing="false" onAction="#convertToCelcius"
+			prefHeight="31.0" prefWidth="155.0" text="To Celcius" />
+		<Button id="btnToFahrenheit" fx:id="btnToFahrenheit" layoutX="229.0"
+			layoutY="201.0" mnemonicParsing="false" onAction="#convertToFahrenheit"
+			prefHeight="31.0" prefWidth="155.0" text="To Fahrenheit" />
+	</children>
+</AnchorPane>
