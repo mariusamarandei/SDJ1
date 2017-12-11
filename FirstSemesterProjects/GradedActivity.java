@@ -1,4 +1,4 @@
-/*A class that holds a grade for a graded activiry.*/
+/*A class that holds a grade for a graded activity.*/
 public class GradedActivity
 {
    private double score; // Numeric score

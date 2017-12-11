@@ -10,7 +10,7 @@ public class ReadFile
    public static void main(String[] args) throws Exception
    {
 
-      File file = new File("Friends.txt");
+      File file = new File("marius");
       /*
        * try { Scanner inputFile = new Scanner(file);
        * while(inputFile.hasNextLine()) { String line = inputFile.nextLine();
